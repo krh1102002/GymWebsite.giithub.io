@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lalezar&family=Lobster&family=Monoton&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lalezar&family=Lobster&family=Monoton&family=Roboto&family=Roboto+Slab:wght@400;800&family=Teko:wght@300&display=swap');
+    html{
+      scroll-behavior: smooth;
+    }
+#home::before {
+      content: '';
+      position: absolute;
+      background: url('./img/back1.jpg');
+      height: 150vh;
+      width: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 1;
+    }
+
+    nav {
+      font-family: 'Bebas Neue', cursive;
+    }
+
+    .nav-link:hover{
+      color:#f36100 !important;
+    
+    }
+
+    .jj:hover {
+      box-shadow: 7px 3px 12px #f36100;
+    }
+
+    .jk:hover i{
+      color: #fff !important;
+      background: #f36100 !important;
+      cursor: pointer;
+    }
+    .vb:hover{
+      background: #f36100 !important;
+    }
+
+    @media only screen and (max-width: 586px) {
+      .card{
+        width: 18rem;
+      }
+    }
+    
+    #banner{
+        margin-bottom: 49px;
+    }
+    #banner::before{
+      content: " ";
+      z-index: -1;
+      width: 100%;
+      height: 85%;
+      opacity: 1;
+      background: url('./img/banner.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+    
+    }
+    .kj:hover{
+      color: #fff!important;
+      background: #f36100 !important;;
+    }
+    .kk:hover{
+      color: #f36100!important;
+        background: #fff !important;
+    }
+    
+    .gg{
+      transform: skewY(-4deg);
+      transition: all 0.4s;
+    }
+    .gg:hover{
+      color: black!important;
+      background-color: #fff;
+    
+    }
+    ul li{
+      margin:auto;
+    }
+     .row ul li{
+      text-decoration: none;
+      list-style-type: none;
+      font-size: 14px;
+      color: #c4c4c4;
+      line-height: 32px;
+      list-style: none;
+    }
+    .box-item{
+      margin: auto;
+    }
+    .ab{
+      transition: all 0.4s ease-in-out;
+    }
+    .ab:hover  {
+      background-color: white !important;
+    }
+    .ab:hover .bb{
+      color: black !important;
+    }
+    .aa{
+      transition:  all 0.4s ease-in-out ;
+    }
+    .ab:hover .aa{
+      background-color: #f36100 !important;
+      border: 1px solid white;
+    }
+
+    /* our teams  */
+    .main-row .card:hover .card-body {
+      visibility: visible;
+      transform: translateY(-50px);
+      height: auto;
+      transition: all 0.4s ease-in-out;
+  }
+  .sstext {
+  
+    transition: all 0.2s ease-in-out;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .sstext:hover{
+    background: #383737!important;
+  }
+  .sstext:hover a{
+    color:#f36100;
+  }
